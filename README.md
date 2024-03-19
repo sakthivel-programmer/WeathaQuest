@@ -1,13 +1,18 @@
 ********* WeathaQuest *********
 
 Myself Sakthivel,
-Welcome to my application
+Welcome to my application WeathaQuest.
 
-Motive:
-The application is used to knowing to the weather report of current day and that week.
+Contact details:
+Phone number: 6382860436
+mail: klsakthi333@gmail.com
+
+Motive of WeathaQuest:
+Exploring todays weather condition to save ourselves from nature bright sun, rainy clouds :)
 
 Tech Stack:
 React,
+craeteReactApp,
 JavaScript,
 HTML,
 Redux Toolkit,
