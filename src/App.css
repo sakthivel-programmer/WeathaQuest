@@ -1,0 +1,14 @@
+body{
+    margin: 0;
+    /* margin-top: -10px; */
+    background-color: whitesmoke;
+}
+.main-div{
+    height: 85vh;
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+}
+::-webkit-scrollbar{
+    display: none;
+}

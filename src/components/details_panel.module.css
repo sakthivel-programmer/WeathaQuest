@@ -1,0 +1,194 @@
+.details_panel{
+    width: 70%;
+    height: 85vh;
+    background-color: whitesmoke;
+    overflow-x: auto;
+}
+
+.location_name{
+    position: relative;
+    font-size: 1.5em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-left: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.report_div{
+    width: 95%;
+    height: 400px;
+    background-color: lightcyan;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 3px blueviolet;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.no_report_message_div{
+    margin: auto;
+    display: flex;
+    flex-direction: column; 
+}
+
+.no_report_message_div img{
+    width: 300px;
+}
+
+.no_report_message{
+    font-size:3rem;
+    color: blueviolet;
+    text-align: center;
+    margin: auto;
+
+}
+.day_and_hour_report{
+    width: 100%;
+    height: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.day_report{
+    height: 95%;
+    width: 30%;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 3px blueviolet;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: linen;
+}
+
+.day_details{
+    margin-left: 20px;
+    height: 10%;
+    width: auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: x-large;
+    display: inline-flex;
+    align-items: center;
+}
+
+.timing{
+    text-align: center;
+    margin-top: 3px;
+    color: aliceblue;
+    font-size: larger;
+}
+
+.hour_report{
+    height: 95%;
+    width: 65%;
+    background-color: beige;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 3px blueviolet;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.hour_reports_collection{
+    height: 90%;
+    width: 100%;
+    padding-top: 5px;
+    box-sizing: border-box;
+    background-color: beige;
+    border-radius: 20px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    overflow-x: auto;
+}
+
+.hour_report_heading{
+    position: relative;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+    border-radius: 18px 18px 0px 0px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.2rem;
+    color: aliceblue;
+}
+
+.weather_detail{
+    height: 25%;
+    width: 95%;
+    border: 1px solid black;
+    border-radius:20px ;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:center;
+    box-shadow: 0px 0px 10px 3px blueviolet;
+}
+
+.weather_category{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.2em;
+
+    font-weight: 300;
+    text-align: center;
+    color: lightslategray;
+}
+
+.weather_data{
+    width:70%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2em;
+    font-weight: 300;
+    text-align: center;
+    color: blueviolet;
+    background-color: white;
+    border-radius:5px;
+}
+
+.hour_by_hour{
+    width: 30%;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: auto;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: blueviolet;
+    box-shadow: 0px 0px 7px 2px blueviolet;
+}
+
+.weather_detail_hour{
+    height: 25%;
+    width: 95%;
+    border-radius:20px ;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:center;
+    background-color: whitesmoke;
+}
+
+.weather_category_hour{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: .7em;
+    font-weight: 300;
+    text-align: center;
+    color: black;
+}
+
+.weather_data_hour{
+    width: 70%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1em;
+    font-weight: 300;
+    text-align: center;
+    color: blueviolet;
+    background-color: white;
+    border-radius:5px; 
+}
