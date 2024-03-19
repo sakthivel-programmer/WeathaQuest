@@ -8,7 +8,7 @@ Phone number: 6382860436
 mail: klsakthi333@gmail.com
 
 Motive of WeathaQuest:
-Exploring todays weather condition to save ourselves from nature bright sun, rainy clouds :)
+Exploring todays weather condition to save ourselves from nature bright sun, rainy clouds and thunder storms :)
 
 Tech Stack:
 React,
