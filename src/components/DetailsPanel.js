@@ -3,13 +3,15 @@ import Styles from "./details_panel.module.css";
 // importing IMAGE that is used for no report screen
 import No_report from "../images/no_report.png"
 // importing selectore function from weather slice to specify in useSelector
-import { selectWeather } from "../features/weather/weatherSlice";
+import { selectWeather, setLoading } from "../features/weather/weatherSlice";
 // importing selector in-order to access App store data 
 import { useSelector } from "react-redux";
+// Loader animation component
+import Loading from "./Loading";
 // functional component
 function DetailsPanel(){
   // destructring weatherReport that fetched from store using useSelector
-  const { weatherReport } = useSelector(selectWeather)
+  const { weatherReport,loading } = useSelector(selectWeather);
   // initially returing NO REPORT message when weatherReport is an empty string 
   if(weatherReport === ""){
 
@@ -24,6 +26,15 @@ function DetailsPanel(){
         <img src={No_report} alt="No report"/>
 
       </div>
+    )
+  }
+  // if loading state stands true render the loading animation
+  if(loading){
+
+    return(
+
+      <Loading/>
+      
     )
   }
   // JSX code that going to be rendered
