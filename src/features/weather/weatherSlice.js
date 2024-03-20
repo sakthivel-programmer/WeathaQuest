@@ -19,12 +19,6 @@ export const fetchWeatherReportAsync = createAsyncThunk(
     .then( parseData => 
       ThunkAPI.dispatch(setWeatherReport({report:parseData}))    
     )
-    .then(
-      setTimeout(()=>(
-        // cut of loading animation
-        ThunkAPI.dispatch(setLoading())
-      ),2500)
-    )
   }
 );
 
